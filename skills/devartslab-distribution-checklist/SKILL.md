@@ -1,5 +1,5 @@
 ---
-name: distribution-checklist
+name: devartslab-distribution-checklist
 description: Evaluate a finished tool/app for distribution formats (package, binary, MCP, skill, extension, etc.) and open-source readiness. Run whenever a repo or tool is complete and the question is "what's next for distribution/scaling/reuse?"
 ---
 

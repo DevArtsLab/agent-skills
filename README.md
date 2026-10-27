@@ -58,7 +58,7 @@ origins, and drift in `~/.agents/.ai-config-lock.json`.
 | `devartslab-update-index` | Regenerate REPO_INDEX.md after adding/removing/changing repo content |
 | `devartslab-update-memory` | Update MEMORY.md with distilled facts from source documents |
 | `devartslab-upgrade-stripe` | Guide for upgrading Stripe API versions and SDKs |
-| `review` | Alias for devartslab-code-review |
+| `devartslab-review` | Alias for devartslab-code-review |
 
 ## Layout
 

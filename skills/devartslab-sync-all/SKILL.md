@@ -1,5 +1,5 @@
 ---
-name: sync-all
+name: devartslab-sync-all
 description: Master sync - run all document update chains in order
 ---
 

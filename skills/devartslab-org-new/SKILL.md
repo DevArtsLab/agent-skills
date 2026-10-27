@@ -1,5 +1,5 @@
 ---
-name: org-new
+name: devartslab-org-new
 description: Onboard a new partner organization (scaffold org tree, validate, first build)
 ---
 

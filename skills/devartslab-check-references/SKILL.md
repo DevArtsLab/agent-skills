@@ -1,5 +1,5 @@
 ---
-name: check-references
+name: devartslab-check-references
 description: Check cross-references and semantic consistency between roadmap documents
 ---
 

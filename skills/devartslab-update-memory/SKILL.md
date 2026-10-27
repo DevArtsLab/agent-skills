@@ -1,5 +1,5 @@
 ---
-name: update-memory
+name: devartslab-update-memory
 description: Update MEMORY.md with distilled facts from source documents
 ---
 

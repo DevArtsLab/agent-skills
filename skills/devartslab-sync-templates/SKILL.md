@@ -1,5 +1,5 @@
 ---
-name: sync-templates
+name: devartslab-sync-templates
 description: Sync template rendering - render org-specific docs from templates
 ---
 

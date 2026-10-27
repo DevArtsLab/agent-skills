@@ -1,5 +1,5 @@
 ---
-name: update-index
+name: devartslab-update-index
 description: Regenerate REPO_INDEX.md after adding/removing/changing repo content
 ---
 

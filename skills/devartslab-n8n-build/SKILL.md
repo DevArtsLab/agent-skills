@@ -1,5 +1,5 @@
 ---
-name: n8n-build
+name: devartslab-n8n-build
 description: Build n8n workflows for a target org and environment
 ---
 

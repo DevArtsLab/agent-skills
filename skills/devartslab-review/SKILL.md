@@ -1,5 +1,5 @@
 ---
-name: review
+name: devartslab-review
 description: Review changes and run pre-push security checks. Alias for devartslab-code-review; run before every git push or when the user asks for a review.
 allowed-tools:
   - read

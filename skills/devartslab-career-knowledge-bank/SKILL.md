@@ -1,5 +1,5 @@
 ---
-name: career-knowledge-bank
+name: devartslab-career-knowledge-bank
 description: Convert historical career information from multiple sources into a single interconnected career knowledge bank that preserves facts, stories, voice, terminology, and evidence for future role-specific extraction and reinterpretation
 ---
 

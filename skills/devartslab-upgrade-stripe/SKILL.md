@@ -1,5 +1,5 @@
 ---
-name: upgrade-stripe
+name: devartslab-upgrade-stripe
 description: Guide for upgrading Stripe API versions and SDKs
 
 ---

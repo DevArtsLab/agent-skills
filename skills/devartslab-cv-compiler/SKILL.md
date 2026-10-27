@@ -1,5 +1,5 @@
 ---
-name: cv-compiler
+name: devartslab-cv-compiler
 trigger: model-decision
 description: Convert historical career information from multiple sources into a single interconnected career content bank guidelines
 ---

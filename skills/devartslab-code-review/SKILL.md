@@ -1,5 +1,5 @@
 ---
-name: code-review
+name: devartslab-code-review
 description: Pre-push code review and security gate. Run before every git push, pull request, or commit to a shared repo, and whenever the user asks to review changes, check security, or mentions Dependabot, leaked secrets, or security bots.
 allowed-tools:
   - read

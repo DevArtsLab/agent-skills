@@ -1,5 +1,5 @@
 ---
-name: linear-research-refine
+name: devartslab-linear-research-refine
 description: "Run one bounded refinement pass on a living Linear research ticket. Use for tickets structured with findings, open questions, a decision log, and a refinement protocol (e.g., DEV-47). Verify decaying claims against current sources, update findings in place, and log resolved decisions with evidence."
 compatibility: "Requires linear-mcp-server (get_issue, save_issue, save_comment) plus web_search and webfetch for source verification."
 license: MIT

@@ -1,5 +1,5 @@
 ---
-name: scrapy-resources
+name: devartslab-scrapy-resources
 trigger: model_decision
 description: Use this skill when building, refactoring, or debugging Scrapy spiders for city-scrapers projects
 ---

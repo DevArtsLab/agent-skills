@@ -1,5 +1,5 @@
 ---
-name: linear
+name: devartslab-linear
 description: "Work with Linear via the linear-mcp-server MCP tools. Use when the user wants to view, create, update, triage, comment on, or organize Linear issues, projects, cycles, documents, releases, milestones, or pull-request diffs, or mentions Linear tickets, teams, or the DevArts Lab workspace."
 compatibility: "Requires the linear-mcp-server MCP server (https://mcp.linear.app/mcp) configured and OAuth-authenticated. Verify with get_workspace."
 license: MIT

@@ -1,5 +1,5 @@
 ---
-name: org-context
+name: devartslab-org-context
 description: Resolve and display the active organization and consultant context (slug, paths, profile)
 ---
 
