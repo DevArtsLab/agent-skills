@@ -1,5 +1,5 @@
 ---
-name: update-demo-guide
+name: devartslab-update-demo-guide
 description: Update demo guide with accurate access links and deployment status
 ---
 

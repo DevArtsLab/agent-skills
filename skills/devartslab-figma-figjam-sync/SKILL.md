@@ -1,5 +1,5 @@
 ---
-name: figma-figjam-sync
+name: devartslab-figma-figjam-sync
 description: Sync a source diagram in the IDE to an editable FigJam board via the Figma MCP
 ---
 

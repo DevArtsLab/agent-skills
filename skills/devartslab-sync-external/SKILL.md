@@ -1,5 +1,5 @@
 ---
-name: sync-external
+name: devartslab-sync-external
 description: External sync - push validated docs to external systems (Figma, etc.)
 ---
 

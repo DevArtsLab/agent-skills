@@ -1,5 +1,5 @@
 ---
-name: update-activity-log
+name: devartslab-update-activity-log
 description: Update NGO activity log with new project activities
 ---
 

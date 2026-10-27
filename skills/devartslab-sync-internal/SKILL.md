@@ -1,5 +1,5 @@
 ---
-name: sync-internal
+name: devartslab-sync-internal
 description: Internal sync - update repo documentation without external pushes
 ---
 

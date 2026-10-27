@@ -1,5 +1,5 @@
 ---
-name: salesforce-deploy
+name: devartslab-salesforce-deploy
 description: Deploy Salesforce metadata to a target org with certificate restoration
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: readme-badges
+name: devartslab-readme-badges
 description: Catalog of README badges (shields.io, CI, coverage, registry, social) for GitHub repositories. Use whenever the user asks what badges to add to a repo, wants to polish a README, mentions shields.io, or asks for license, language, build, version, or status badges, even if they only say "add badges" without naming a type.
 ---
 
