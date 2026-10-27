@@ -34,31 +34,31 @@ origins, and drift in `~/.agents/.ai-config-lock.json`.
 
 | Skill | What it does |
 | ----- | ------------ |
-| `career-knowledge-bank` | Convert historical career information from multiple sources into a single interconnected career knowledge bank |
-| `check-references` | Check cross-references and semantic consistency between roadmap documents |
-| `code-review` | Pre-push code review and security gate. Run before every git push, pull request, or commit |
-| `cv-compiler` | Convert historical career information into a single interconnected career content bank |
-| `distribution-checklist` | Evaluate a finished tool/app for distribution formats and open-source readiness |
-| `figma-figjam-sync` | Sync a source diagram in the IDE to an editable FigJam board via the Figma MCP |
-| `linear` | Work with Linear via the linear-mcp-server MCP tools |
-| `linear-research-refine` | Run one bounded refinement pass on a living Linear research ticket |
-| `n8n-build` | Build n8n workflows for a target org and environment |
-| `org-context` | Resolve and display the active organization and consultant context |
-| `org-new` | Onboard a new partner organization (scaffold org tree, validate, first build) |
-| `pnpm-fleet` | Enforce DevArts Lab pnpm fleet policy across repos via tool-pnpm-fleet |
-| `readme-badges` | Catalog of README badges for GitHub repositories |
-| `salesforce-deploy` | Deploy Salesforce metadata to a target org with certificate restoration |
-| `scrapy-resources` | Building, refactoring, or debugging Scrapy spiders for city-scrapers projects |
-| `sync-all` | Master sync - run all document update chains in order |
-| `sync-external` | Push validated docs to external systems (Figma, etc.) |
-| `sync-internal` | Update repo documentation without external pushes |
-| `sync-templates` | Render org-specific docs from templates |
-| `update-activity-log` | Update NGO activity log with new project activities |
-| `update-demo-guide` | Update demo guide with accurate access links and deployment status |
-| `update-index` | Regenerate REPO_INDEX.md after adding/removing/changing repo content |
-| `update-memory` | Update MEMORY.md with distilled facts from source documents |
-| `upgrade-stripe` | Guide for upgrading Stripe API versions and SDKs |
-| `review` | Alias for code-review |
+| `devartslab-career-knowledge-bank` | Convert historical career information from multiple sources into a single interconnected career knowledge bank |
+| `devartslab-check-references` | Check cross-references and semantic consistency between roadmap documents |
+| `devartslab-code-review` | Pre-push code review and security gate. Run before every git push, pull request, or commit |
+| `devartslab-cv-compiler` | Convert historical career information into a single interconnected career content bank |
+| `devartslab-distribution-checklist` | Evaluate a finished tool/app for distribution formats and open-source readiness |
+| `devartslab-figma-figjam-sync` | Sync a source diagram in the IDE to an editable FigJam board via the Figma MCP |
+| `devartslab-linear` | Work with Linear via the linear-mcp-server MCP tools |
+| `devartslab-linear-research-refine` | Run one bounded refinement pass on a living Linear research ticket |
+| `devartslab-n8n-build` | Build n8n workflows for a target org and environment |
+| `devartslab-org-context` | Resolve and display the active organization and consultant context |
+| `devartslab-org-new` | Onboard a new partner organization (scaffold org tree, validate, first build) |
+| `devartslab-pnpm-fleet` | Enforce DevArts Lab pnpm fleet policy across repos via tool-pnpm-fleet |
+| `devartslab-readme-badges` | Catalog of README badges for GitHub repositories |
+| `devartslab-salesforce-deploy` | Deploy Salesforce metadata to a target org with certificate restoration |
+| `devartslab-scrapy-resources` | Building, refactoring, or debugging Scrapy spiders for city-scrapers projects |
+| `devartslab-sync-all` | Master sync - run all document update chains in order |
+| `devartslab-sync-external` | Push validated docs to external systems (Figma, etc.) |
+| `devartslab-sync-internal` | Update repo documentation without external pushes |
+| `devartslab-sync-templates` | Render org-specific docs from templates |
+| `devartslab-update-activity-log` | Update NGO activity log with new project activities |
+| `devartslab-update-demo-guide` | Update demo guide with accurate access links and deployment status |
+| `devartslab-update-index` | Regenerate REPO_INDEX.md after adding/removing/changing repo content |
+| `devartslab-update-memory` | Update MEMORY.md with distilled facts from source documents |
+| `devartslab-upgrade-stripe` | Guide for upgrading Stripe API versions and SDKs |
+| `review` | Alias for devartslab-code-review |
 
 ## Layout
 
