@@ -16,7 +16,7 @@ Executes all sync workflows in dependency order:
 1. **Template Rendering** (`/sync-templates`) — Renders org-specific docs from templates
 2. **Activity Log Update** (`/update-activity-log`) — Records new project activities
 3. **Cross-Reference Check** (`/check-references`) — Validates document references
-4. **Index Generation** (`/update-index`) — Regenerates REPO_INDEX.md
+4. **Index Generation** (`/update-index`) — Regenerates INDEX.md
 5. **Demo Guide Update** (`/update-demo-guide`) — Updates demo guide with accurate URLs and deployment status
 
 **External sync (push to external systems):** 6. **FigJam Sync** (`/figma-figjam-sync`) — Syncs diagrams to FigJam boards

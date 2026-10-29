@@ -75,7 +75,7 @@ node n8n/development/scripts/build.js --org <slug> --env development
 
 Check `dist/<slug>/` for rendered docs and `n8n/development/build/<slug>/development/json/` for built workflows. Verify no unresolved placeholders.
 
-7. **Update REPO_INDEX:**
+7. **Update INDEX:**
 
 Run `/update-index` to document the new org tree (only the template and example files are tracked; the org tree itself is gitignored).
 

@@ -119,7 +119,7 @@ This workflow is part of the `/sync-all` chain and runs after template rendering
 1. `/sync-templates` — renders templates with org values
 2. `/update-activity-log` — records new activities (this workflow)
 3. `/check-references` — validates document references
-4. `/update-index` — regenerates REPO_INDEX.md
+4. `/update-index` — regenerates INDEX.md
 5. `/update-demo-guide` — updates demo guide with accurate deployment status
 
 **Note:** Memory distillation (`/update-memory`) is not part of automatic sync to keep MEMORY.md focused on distilled facts rather than operational activities.

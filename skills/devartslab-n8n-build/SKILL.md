@@ -48,7 +48,7 @@ If `--org` is omitted, the resolver tries `ORG_CONTEXT` env, then `active-org.js
 node scripts/build.js --all-orgs --env development
 ```
 
-3. **Update `REPO_INDEX.md`:**
+3. **Update `INDEX.md`:**
 
 Run `/update-index` to reflect any tracked source changes. Generated `build/<slug>/<env>/` files are gitignored and will not appear in the index.
 
@@ -77,8 +77,8 @@ Run `/update-demo-guide` to update the demo guide with accurate n8n workflow URL
 
 ## Relationship to other workflows
 
-- `/update-index` is run as part of this workflow so `REPO_INDEX.md` stays in sync with tracked source changes.
-- `build/<slug>/<env>/` is a generated directory and already gitignored, so it will not appear in `REPO_INDEX.md`.
+- `/update-index` is run as part of this workflow so `INDEX.md` stays in sync with tracked source changes.
+- `build/<slug>/<env>/` is a generated directory and already gitignored, so it will not appear in `INDEX.md`.
 - For a full local round-trip: edit `src/workflows/` → `build.js --org <slug> --env development` → `/update-index` → (optionally) `deploy.js --org <slug> --env development`.
 
 ## Dependencies
