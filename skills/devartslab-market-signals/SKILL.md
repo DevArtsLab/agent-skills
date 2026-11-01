@@ -3,7 +3,7 @@ name: devartslab-market-signals
 description: Align DevArts Lab positioning, roadmaps, resumes, pitches, and issue impact framing with verified market signals (hiring metrics, exec AI-ROI pain, growth keywords). Use when tailoring a resume or ledger bullets, writing JD-matched material, planning or prioritizing roadmap items, drafting positioning/pitch/partner material, or deciding what to build next.
 ---
 
-<!-- author: Amir Olyaei | DevArts Lab | last_updated: 2026-10-28 -->
+<!-- author: Amir Olyaei | DevArts Lab | created: 2026-10-28 | last_updated: 2026-10-28 -->
 
 # Market Signals
 

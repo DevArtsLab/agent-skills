@@ -3,6 +3,8 @@ name: devartslab-update-memory
 description: Update MEMORY.md with distilled facts from source documents
 ---
 
+<!-- author: Amir Olyaei | DevArts Lab | created: 2026-07-19 -->
+
 Run this when source documents change significantly to suggest updates to MEMORY.md. This workflow analyzes changed source documents and proposes additions or updates to the distilled facts in MEMORY.md.
 
 ## What this does

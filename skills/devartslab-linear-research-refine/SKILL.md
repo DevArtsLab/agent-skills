@@ -5,7 +5,7 @@ compatibility: "Requires linear-mcp-server (get_issue, save_issue, save_comment)
 license: MIT
 ---
 
-<!-- author: Amir Olyaei | DevArts Lab | last_updated: 2026-10-04 -->
+<!-- author: Amir Olyaei | DevArts Lab | created: 2026-10-04 | last_updated: 2026-10-04 -->
 
 # Linear Research Refinement
 

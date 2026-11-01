@@ -3,6 +3,8 @@ name: devartslab-salesforce-deploy
 description: Deploy Salesforce metadata to a target org with certificate restoration
 ---
 
+<!-- author: Amir Olyaei | DevArts Lab | created: 2026-07-30 -->
+
 Run this to deploy Salesforce metadata to a target org with proper certificate handling. All org-specific Salesforce config (JWT keys, org alias, scratch def) lives in the org tree at `shared/config/orgs/<slug>/salesforce/`.
 
 ## What this does

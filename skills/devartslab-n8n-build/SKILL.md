@@ -3,6 +3,8 @@ name: devartslab-n8n-build
 description: Build n8n workflows for a target org and environment
 ---
 
+<!-- author: Amir Olyaei | DevArts Lab | created: 2026-07-26 | last_updated: 2026-07-26 -->
+
 Run this to render the n8n development source into a deployable `build/<slug>/<env>/` directory.
 
 ## What this does

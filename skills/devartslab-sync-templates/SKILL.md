@@ -3,6 +3,8 @@ name: devartslab-sync-templates
 description: Sync template rendering - render org-specific docs from templates
 ---
 
+<!-- author: Amir Olyaei | DevArts Lab | created: 2026-07-19 -->
+
 Run this whenever an org's `org-profile.json` changes or when template files in `shared/*.md` are updated. This workflow renders the templated markdown files into org-specific documents in `dist/<slug>/`.
 
 ## What this does

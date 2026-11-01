@@ -3,6 +3,8 @@ name: devartslab-figma-figjam-sync
 description: Sync a source diagram in the IDE to an editable FigJam board via the Figma MCP
 ---
 
+<!-- author: Amir Olyaei | DevArts Lab | created: 2026-07-17 | last_updated: 2026-07-17 -->
+
 # Source of truth
 
 The `.md` file in the repo is the single source of truth. The `.figjam.md` file next to it is only a sync manifest (board URL + `fileKey`).

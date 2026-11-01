@@ -3,6 +3,8 @@ name: devartslab-update-activity-log
 description: Update NGO activity log with new project activities
 ---
 
+<!-- author: Amir Olyaei | DevArts Lab | created: 2026-07-20 -->
+
 Run this whenever significant project activities occur that should be recorded in the activity log. This workflow ensures the activity log stays current as a chronological record of project progress.
 
 ## What this does

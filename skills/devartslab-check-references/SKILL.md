@@ -3,6 +3,8 @@ name: devartslab-check-references
 description: Check cross-references and semantic consistency between roadmap documents
 ---
 
+<!-- author: Amir Olyaei | DevArts Lab | created: 2026-07-19 -->
+
 Run this to validate that cross-references between roadmap documents are consistent and up-to-date. This workflow checks that referenced documents exist, validates semantic consistency, and flags documents that should be updated together.
 
 ## What this does

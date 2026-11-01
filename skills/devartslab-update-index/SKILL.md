@@ -3,6 +3,8 @@ name: devartslab-update-index
 description: Regenerate INDEX.md after adding/removing/changing repo content
 ---
 
+<!-- author: Amir Olyaei | DevArts Lab | created: 2026-07-13 -->
+
 Run this whenever files or folders have been added, removed, renamed, or substantially
 rewritten since `INDEX.md` was last updated.
 

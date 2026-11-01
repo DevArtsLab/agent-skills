@@ -3,6 +3,8 @@ name: devartslab-sync-internal
 description: Internal sync - update repo documentation without external pushes
 ---
 
+<!-- author: Amir Olyaei | DevArts Lab | created: 2026-07-20 -->
+
 Run this to execute internal documentation synchronization workflows. This updates all markdown files, validates references, and regenerates indexes without pushing to external systems (Figma, etc.).
 
 **Org context:** All sub-workflows operate on the active org. Set `ORG_CONTEXT=<slug>` or pass `--org <slug>` to the underlying render/build commands. Template rendering outputs to `dist/<slug>/`.

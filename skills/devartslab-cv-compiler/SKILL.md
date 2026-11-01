@@ -1,10 +1,10 @@
 ---
 name: devartslab-cv-compiler
 trigger: model-decision
-description: Convert historical career information from multiple sources into a single interconnected career content bank guidelines
+description: Convert historical career information from multiple sources into a single interconnected career knowledge bank that preserves facts, stories, voice, terminology, and evidence for future role-specific extraction and reinterpretation
 ---
 
-<!-- author: Amir Olyaei | DevArts Lab | last updated: 2026-09-02 -->
+<!-- author: Amir Olyaei | DevArts Lab (devartslab.com) | created: 2026-09-02 | last updated: 2026-09-04 -->
 
 # Historical Career Content Bank
 
@@ -958,14 +958,11 @@ Never modify the historical content bank when adapting terminology.
 Instead:
 
 SOURCE OF TRUTH
-+
-CAREER INTERPRETATION
-+
-TARGET TERMINOLOGY
-+
-TARGET AUDIENCE
-+
-TARGET SENIORITY
+
+- CAREER INTERPRETATION
+- TARGET TERMINOLOGY
+- TARGET AUDIENCE
+- TARGET SENIORITY
 
 produce the final communication.
 
@@ -1403,7 +1400,7 @@ Prevent what existed from becoming a constraint.
 
 Preserve historical stories without treating them as permanent narrative templates.
 
-Preserve the original story as an artifact, not as the canonical story.
+Preserve the original story as an artifact, not as the only story.
 
 An original story is historical evidence of how the user communicated an experience at a particular point in time.
 
@@ -1769,18 +1766,13 @@ The system should maximize future storytelling possibilities while maintaining h
 The objective is:
 
 PRESERVE HISTORY
-+
-PRESERVE VOICE
-+
-PRESERVE EVIDENCE
-+
-PRESERVE NARRATIVE OPTIONS
-+
-ENABLE REINTERPRETATION
-+
-ENABLE CAREER EVOLUTION
-=
-FLEXIBLE LONG-TERM CAREER SOURCE OF TRUTH
+
+- PRESERVE VOICE
+- PRESERVE EVIDENCE
+- PRESERVE NARRATIVE OPTIONS
+- ENABLE REINTERPRETATION
+- # ENABLE CAREER EVOLUTION
+  FLEXIBLE LONG-TERM CAREER SOURCE OF TRUTH
 
 ## Governing Principle
 
@@ -1807,4 +1799,3 @@ CURRENT COMMUNICATION
 Nothing downstream rewrites the historical source.
 
 The system is a long-term career knowledge and narrative system that can continuously reinterpret the same evidence as the user's career develops, without falsifying or losing the history.
-```

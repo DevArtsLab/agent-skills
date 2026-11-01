@@ -3,6 +3,8 @@ name: devartslab-org-new
 description: Onboard a new partner organization (scaffold org tree, validate, first build)
 ---
 
+<!-- author: Amir Olyaei | DevArts Lab | created: 2026-08-08 -->
+
 Run this to scaffold a new partner organization into the multi-org system. This creates the org tree from the template, validates it, and runs a first build to verify everything works.
 
 ## What this does

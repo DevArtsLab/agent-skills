@@ -3,6 +3,8 @@ name: devartslab-update-demo-guide
 description: Update demo guide with accurate access links and deployment status
 ---
 
+<!-- author: Amir Olyaei | DevArts Lab | created: 2026-07-31 -->
+
 Run this after Salesforce deployments, n8n builds, or before demo preparation to ensure
 `shared/demo-guide.md` reflects the actual system state with accurate URLs and component status.
 

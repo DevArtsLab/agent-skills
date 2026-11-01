@@ -3,6 +3,8 @@ name: devartslab-readme-badges
 description: Catalog of README badges (shields.io, CI, coverage, registry, social) for GitHub repositories. Use whenever the user asks what badges to add to a repo, wants to polish a README, mentions shields.io, or asks for license, language, build, version, or status badges, even if they only say "add badges" without naming a type.
 ---
 
+<!-- author: Amir Olyaei | DevArts Lab | created: 2026-10-27 | last_updated: 2026-10-27 -->
+
 Help the user pick and insert README badges that are true for their repo. The full badge catalog lives in `references/badges.md` - read it when you need snippet options beyond the common set below.
 
 ## Workflow

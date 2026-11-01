@@ -4,6 +4,8 @@ trigger: model_decision
 description: Use this skill when building, refactoring, or debugging Scrapy spiders for city-scrapers projects
 ---
 
+<!-- author: Amir Olyaei | DevArts Lab | created: 2026-08-28 -->
+
 # Scrapy Spider Development Skill
 
 Use this skill when building, refactoring, or debugging Scrapy spiders for city-scrapers projects.

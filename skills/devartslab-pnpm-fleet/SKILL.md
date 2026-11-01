@@ -3,7 +3,7 @@ name: devartslab-pnpm-fleet
 description: Enforce DevArts Lab pnpm fleet policy across repos via tool-pnpm-fleet. Use when migrating a repo to pnpm, auditing pnpm compliance or vulnerabilities, bumping the pinned pnpm version fleet-wide, managing exceptions, or questions about the lab's package-manager governance rules.
 ---
 
-<!-- author: Amir Olyaei | DevArts Lab | last_updated: 2026-10-26 -->
+<!-- author: Amir Olyaei | DevArts Lab | created: 2026-10-26 | last_updated: 2026-10-26 -->
 
 # pnpm fleet policy
 

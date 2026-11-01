@@ -5,7 +5,7 @@ compatibility: "Requires the linear-mcp-server MCP server (https://mcp.linear.ap
 license: MIT
 ---
 
-<!-- author: Amir Olyaei | DevArts Lab | last_updated: 2026-10-15 -->
+<!-- author: Amir Olyaei | DevArts Lab | created: 2026-10-15 | last_updated: 2026-10-15 -->
 
 # Linear MCP
 

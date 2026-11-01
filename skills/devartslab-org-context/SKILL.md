@@ -3,6 +3,8 @@ name: devartslab-org-context
 description: Resolve and display the active organization and consultant context (slug, paths, profile)
 ---
 
+<!-- author: Amir Olyaei | DevArts Lab | created: 2026-08-08 -->
+
 Run this to check which org and consultant are currently active and see all derived paths. Every tool in this repo resolves an org context (and a consultant context) before touching org-specific data — this skill shows you what that resolution produces.
 
 ## What this does

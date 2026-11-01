@@ -8,7 +8,7 @@ allowed-tools:
   - exec
 ---
 
-<!-- author: Amir Olyaei | DevArts Lab | last_updated: 2026-10-16 -->
+<!-- author: Amir Olyaei | DevArts Lab | created: 2026-10-16 | last_updated: 2026-10-16 -->
 
 # DevArts Lab code review and pre-push security gate
 

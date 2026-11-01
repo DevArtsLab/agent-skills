@@ -3,6 +3,8 @@ name: devartslab-sync-all
 description: Master sync - run all document update chains in order
 ---
 
+<!-- author: Amir Olyaei | DevArts Lab | created: 2026-07-19 -->
+
 Run this to execute all document synchronization workflows in the correct dependency order. This is the master orchestrator that runs all chains: internal documentation sync (template rendering, activity log update, cross-reference checking, index generation) followed by external system sync (FigJam).
 
 **Org context:** All sub-workflows operate on the active org. Set `ORG_CONTEXT=<slug>` or pass `--org <slug>` to the underlying render/build commands. Template rendering outputs to `dist/<slug>/`; n8n builds to `build/<slug>/<env>/`.

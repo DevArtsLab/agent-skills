@@ -3,6 +3,8 @@ name: devartslab-sync-external
 description: External sync - push validated docs to external systems (Figma, etc.)
 ---
 
+<!-- author: Amir Olyaei | DevArts Lab | created: 2026-07-20 -->
+
 Run this to push validated documentation to external systems. This workflow should only be run after `/sync-internal` has completed successfully to ensure all markdown files are consistent and up-to-date before pushing to external systems.
 
 **Org context:** FigJam sync uses the active org's rendered `dist/<slug>/` output. Set `ORG_CONTEXT=<slug>` or pass `--org <slug>` to the render step.

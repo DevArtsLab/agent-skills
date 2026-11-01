@@ -3,7 +3,7 @@ name: devartslab-distribution-checklist
 description: Evaluate a finished tool/app for distribution formats (package, binary, MCP, skill, extension, etc.) and open-source readiness. Run whenever a repo or tool is complete and the question is "what's next for distribution/scaling/reuse?"
 ---
 
-<!-- author: Amir Olyaei | DevArts Lab | last_updated: 2026-10-10 -->
+<!-- author: Amir Olyaei | DevArts Lab | created: 2026-10-10 | last_updated: 2026-10-10 -->
 
 Use this after any tool, app, or repo is finished (or merged/released) to produce a
 concrete distribution and open-source recommendation instead of re-deriving the
@@ -33,20 +33,20 @@ For EACH option, mark it: **Build** / **Maybe later** / **Poor fit** — with a
 one-line reason and rough effort. Do not recommend every option; kill the poor
 fits explicitly.
 
-| Format | Build it when | Skip when | Effort |
-|---|---|---|---|
-| **Remote-run one-liner** (`uv run <raw-url>`, `curl \| sh`, `npx`) | Script has inline deps or a fetchable installer; zero-install matters | Requires build step or secrets baked in | S |
-| **Package registry** (PyPI/npm/brew/crates) | CLI or library others will run repeatedly; want `uvx`/`pipx`/`brew install` | Internal-only, or needs non-packageable services | M |
-| **Standalone binary** (PyInstaller, pkg, goreleaser) | Users may lack the runtime AND deps are self-contained | It still needs external CLIs/tokens (only half-standalone) | M |
-| **Agent skill** (`.agents/skills/*/SKILL.md`) | Org uses AI agents; want agent sessions to invoke it | Tool is trivial or purely interactive | S |
-| **MCP server** | Read-mostly ops agents should call programmatically; returns structured data | Core UX is an interactive prompt flow; or heavy mutation needs human-in-loop UI | M-L |
-| **GitHub App / OAuth app** | Needs its own identity, webhooks, or acts on users' behalf unattended | It's a local CLI using the user's existing auth | L |
-| **IDE extension** | Value is editor-context-aware (linting, inline actions) | It wraps a terminal command — thin wrapper, low value | L |
-| **CI Action / reusable workflow** | Runs per-repo or per-PR inside pipelines; token scope fits the job | Scope is account/org-level (GITHUB_TOKEN sees only its repo) | M |
-| **Browser extension / plugin** | Extends a host app users already live in | Standalone usage is the norm | L |
-| **Docker image** | Reproducible env with many system deps, or server component | Single-script tools — image adds overhead | M |
-| **Library/SDK** (importable) | Other code should call its logic, not just its CLI | Logic is thin CLI glue; not worth an API surface | M |
-| **Dockerized agent / cloud agent** | Should run unattended on a schedule | Needs interactive confirmation for mutations | M-L |
+| Format                                                             | Build it when                                                                | Skip when                                                                       | Effort |
+| ------------------------------------------------------------------ | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------ |
+| **Remote-run one-liner** (`uv run <raw-url>`, `curl \| sh`, `npx`) | Script has inline deps or a fetchable installer; zero-install matters        | Requires build step or secrets baked in                                         | S      |
+| **Package registry** (PyPI/npm/brew/crates)                        | CLI or library others will run repeatedly; want `uvx`/`pipx`/`brew install`  | Internal-only, or needs non-packageable services                                | M      |
+| **Standalone binary** (PyInstaller, pkg, goreleaser)               | Users may lack the runtime AND deps are self-contained                       | It still needs external CLIs/tokens (only half-standalone)                      | M      |
+| **Agent skill** (`.agents/skills/*/SKILL.md`)                      | Org uses AI agents; want agent sessions to invoke it                         | Tool is trivial or purely interactive                                           | S      |
+| **MCP server**                                                     | Read-mostly ops agents should call programmatically; returns structured data | Core UX is an interactive prompt flow; or heavy mutation needs human-in-loop UI | M-L    |
+| **GitHub App / OAuth app**                                         | Needs its own identity, webhooks, or acts on users' behalf unattended        | It's a local CLI using the user's existing auth                                 | L      |
+| **IDE extension**                                                  | Value is editor-context-aware (linting, inline actions)                      | It wraps a terminal command — thin wrapper, low value                           | L      |
+| **CI Action / reusable workflow**                                  | Runs per-repo or per-PR inside pipelines; token scope fits the job           | Scope is account/org-level (GITHUB_TOKEN sees only its repo)                    | M      |
+| **Browser extension / plugin**                                     | Extends a host app users already live in                                     | Standalone usage is the norm                                                    | L      |
+| **Docker image**                                                   | Reproducible env with many system deps, or server component                  | Single-script tools — image adds overhead                                       | M      |
+| **Library/SDK** (importable)                                       | Other code should call its logic, not just its CLI                           | Logic is thin CLI glue; not worth an API surface                                | M      |
+| **Dockerized agent / cloud agent**                                 | Should run unattended on a schedule                                          | Needs interactive confirmation for mutations                                    | M-L    |
 
 Effort legend: S < 1 hour, M = hours, L = days.
 

@@ -8,7 +8,7 @@ allowed-tools:
   - exec
 ---
 
-<!-- author: Amir Olyaei | DevArts Lab | last_updated: 2026-10-16 -->
+<!-- author: Amir Olyaei | DevArts Lab | created: 2026-10-16 | last_updated: 2026-10-16 -->
 
 Invoke the `devartslab-code-review` skill and follow its full flow: diff
 review, secret scan, dependency/Dependabot check, repo hygiene, verdict.
