@@ -7,7 +7,7 @@ description: Align DevArts Lab positioning, roadmaps, resumes, pitches, and issu
 
 # Market Signals
 
-Source of truth: `devartslab-foundation/md/MARKET-SIGNALS.md` (revisioned,
+Source of truth: `foundation/reference/market-signals.md` (revisioned,
 dated facts). Living driver: Linear **DEV-125**. Mirror: Linear doc
 "Contribution Ledger: Conventions + Stats" -> Market signal lens section.
 
@@ -20,7 +20,7 @@ dated facts). Living driver: Linear **DEV-125**. Mirror: Linear doc
 
 ## Core rules
 
-1. Read `md/MARKET-SIGNALS.md` first; treat facts older than 2 quarters as
+1. Read `reference/market-signals.md` first; treat facts older than 2 quarters as
    stale and flag for a DEV-125 rescan rather than quoting them.
 2. Frame numbers in DORA/SPACE/Core 4 vocabulary first (deploy frequency,
    lead time, CFR, MTTR, time saved, cost basis), proprietary terms second.
@@ -33,4 +33,4 @@ dated facts). Living driver: Linear **DEV-125**. Mirror: Linear doc
 
 To run a scan pass: open DEV-125, follow its refinement protocol (3-6 web
 queries -> update findings in place -> mark decayed claims -> log decision
--> sync deltas to MARKET-SIGNALS.md and the Linear doc section).
+-> sync deltas to market-signals and the Linear doc section).

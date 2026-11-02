@@ -63,6 +63,6 @@ Compress claims to the shortest form that keeps the assertion testable. Skip tab
 
 - "verify", "audit", "did it actually ship", "forensic", "confirm it's live"
 - Before appending `## Outcome / ## Impact / ## Evidence` to a Linear issue
-- Before flagging or quoting stale MARKET-SIGNALS.md facts as current
+- Before flagging or quoting stale market-signals facts as current
 - Post-sync checks: rendered doc vs source template
 - Fleet audits: pnpm compliance, skill symlink integrity, automation drift
