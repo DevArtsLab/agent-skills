@@ -3,7 +3,7 @@ name: devartslab-project-new
 description: Scaffold a new project from the project-blueprint copier template and wire it into the workspace config store. Use whenever the user wants to create, start, bootstrap, or set up a new project or repo in the workspace, even if they just say "new project", "start a project", or name a slug without mentioning the blueprint.
 ---
 
-<!-- author: Amir Olyaei | DevArts Lab | created: 2026-11-01 -->
+<!-- author: Amir Olyaei | DevArts Lab | created: 2026-11-01 | last_updated: 2026-11-06 -->
 
 Scaffold a new project: renders `project-blueprint` via copier (identity manifest as answers file), creates the workspace store dirs, renders a gitignored `.env.local` skeleton, registers declared secret ids, runs `git init`.
 
@@ -24,7 +24,7 @@ Contracts implemented: D12 (identity manifest, brand-neutral template) and D14 (
 2. Dry-run first, always:
 
 ```bash
-python3 ~/.agents/skills/devartslab-project-new/scripts/project_new.py --slug <slug> --identity <brand> --secrets a,b,c
+python3 $AGENT_CONFIG_HOME/skills/devartslab-project-new/scripts/project_new.py --slug <slug> --identity <brand> --secrets a,b,c
 ```
 
 3. **Checkpoint.** Show the printed plan and ask once: proceed? Do not ask per-file questions.

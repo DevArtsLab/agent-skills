@@ -13,16 +13,16 @@ copies.
 npx skills add DevArtsLab/agent-skills
 ```
 
-Installs into `~/.agents/skills/`. From there,
+Installs into `$AGENT_CONFIG_HOME/skills/`. From there,
 [universal-ai-config](https://github.com/DevArtsLab/tool-universal-ai-config)
 (`ai-config sync`) distributes to provider skill dirs
 (`~/.claude/skills`, `~/.cursor/skills`, `~/.copilot/skills`,
 `~/.config/devin/skills`, `~/.windsurf/skills`) and tracks content hashes,
-origins, and drift in `~/.agents/.ai-config-lock.json`.
+origins, and drift in `$AGENT_CONFIG_HOME/.ai-config-lock.json`.
 
 ## Edit loop
 
-1. Edit skills **in this repo**, not in `~/.agents/skills` (installed copies
+1. Edit skills **in this repo**, not in `$AGENT_CONFIG_HOME/skills` (installed copies
    are overwritten on reinstall).
 2. Commit + push.
 3. `npx skills add DevArtsLab/agent-skills` on each machine refreshes the
@@ -41,6 +41,11 @@ Each `SKILL.md` carries a metadata comment below the frontmatter:
 `last updated`: latest substantive edit; bump on every content change.
 New skills must include the line at scaffold time.
 
+Skills are project-agnostic. Never reference repos, projects, tools, or
+storage locations in a skill; each project declares the skills it uses in its
+own config (AGENTS.md, `.agents/`, provider dirs). Skill content covers only
+the skill's own methodology.
+
 ## Skills
 
 | Skill                               | What it does                                                                                                   |
@@ -48,6 +53,7 @@ New skills must include the line at scaffold time.
 | `devartslab-career-knowledge-bank`  | Convert historical career information from multiple sources into a single interconnected career knowledge bank |
 | `devartslab-check-references`       | Check cross-references and semantic consistency between roadmap documents                                      |
 | `devartslab-code-review`            | Pre-push code review and security gate. Run before every git push, pull request, or commit                     |
+| `devartslab-contact-vetting`        | Log, triage, and vet inbound professional inquiries against supply chain and governance criteria               |
 | `devartslab-cv-compiler`            | Convert historical career information into a single interconnected career content bank                         |
 | `devartslab-distribution-checklist` | Evaluate a finished tool/app for distribution formats and open-source readiness                                |
 | `devartslab-figma-figjam-sync`      | Sync a source diagram in the IDE to an editable FigJam board via the Figma MCP                                 |
