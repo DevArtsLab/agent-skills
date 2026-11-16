@@ -15,12 +15,12 @@ Two layers: mechanical drift detection, then judgment checks. Do not declare wor
 From workspace root:
 
 ```
-scripts/lab-check.sh
+scripts/lab lab-check
 ```
 
 Read-only scan: git state per repo (dirty, unpushed, no upstream), LAB_INDEX vs live GitHub org, skills-lock freshness vs `agent-skills` source, stray provider skill dirs (`./.claude/skills`, `./.devin/skills`), registered domain reachability. Exit 1 on any FAIL.
 
-Each FAIL: fix it, or report it to the user as known drift with the cause. Sections run independently: `scripts/lab-check.sh skills` scans only that section.
+Each FAIL: fix it, or report it to the user as known drift with the cause. Sections run independently: `scripts/lab lab-check skills` scans only that section.
 
 ## 2. Judgment checklist
 
