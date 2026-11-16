@@ -26,7 +26,9 @@ origins, and drift in `$AGENT_CONFIG_HOME/.ai-config-lock.json`.
    are overwritten on reinstall).
 2. Commit + push.
 3. `npx skills add DevArtsLab/agent-skills` on each machine refreshes the
-   installed copies.
+   installed copies. Workspace-scope installs add `-a universal`; one skill
+   from local source: `npx skills add ./agent-skills -s <name> -a universal -y`.
+   Omitting `-a universal` creates provider symlink dirs — never omit.
 4. `ai-config sync` pushes them to provider dirs; `ai-config status` shows
    per-provider sync state and flags locally edited copies as drifted.
 
