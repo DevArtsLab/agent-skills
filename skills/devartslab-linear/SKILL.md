@@ -5,7 +5,7 @@ compatibility: "Requires the linear-mcp-server MCP server (https://mcp.linear.ap
 license: MIT
 ---
 
-<!-- author: Amir Olyaei | DevArts Lab | created: 2026-10-15 | last_updated: 2026-10-15 -->
+<!-- author: Amir Olyaei | DevArts Lab | created: 2026-10-15 | last_updated: 2026-11-19 -->
 
 # Linear MCP
 
@@ -15,6 +15,9 @@ The `linear-mcp-server` MCP server exposes the full Linear API as tools. Call `m
 
 - Record what changed, where (repo/commit/URL), the outcome and impact.
 - Skip session narration and meta commentary; log only durable facts.
+- Issue descriptions hold durable content only: what was decided or changed, the outcome, and where the evidence lives (PR, session, log path). One short line per item.
+- Comments carry new lasting information, at most ~3 lines; prefer updating the description over stacking comments; delete superseded comments instead of appending corrections.
+- Record versions only as before/after evidence when they matter (e.g. security audits), not as routine logging.
 
 ## Workspace Defaults
 
